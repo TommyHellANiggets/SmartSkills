@@ -1,0 +1,53 @@
+:root {
+    --color_main: #ddd0ff; 
+    --color_second: #bedffe; 
+    --color_third: #b9dfff;
+    --color_card: #8793ff96;
+    --color_border: #c99cff;
+    --color_btn: #2849ec;
+    --color1: #a2d2ff;
+    --color2: #cbe7ff; 
+    --color3: #175c8a;
+    --color4: #8338ec;
+    --black: #000000;
+    --gray: #6a6a6a;
+}
+
+.html {
+    background-color: var(--color2) !important;
+}
+
+.contimg {
+    background-image: url("../img/12322.jpg") !important;
+    background-size: cover;
+}
+
+.btncolor {
+    background-color: var(--color_btn) !important;
+    color: var(--color2);
+    border: 1px solid var(--color_card);
+
+}
+
+.auth-link {
+    color: var(--color2) !important;
+    text-decoration: none !important;
+}
+
+.card {
+    background-color: var(--color_card);
+    border: 1px solid var(--color_btn);
+    border-radius: 10px !important;
+}
+
+.authtext {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--color_main)
+}
+
+.textcolor2 {
+    color: var(--color_main);
+}
+
+
